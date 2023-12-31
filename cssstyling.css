@@ -1,0 +1,131 @@
+body
+{
+background-image: url(photo/paper2.jpg);
+width: auto;
+height: 1200px;
+font-family: Arial;
+margin: 0;
+padding: 0;
+}
+
+h1
+{
+font-family: Tahoma;
+font-size: 20px;
+color:black;
+}
+
+h2
+{
+font-family: harrington;
+font-size: 50px;
+text-align: center;
+padding: 50px 20px;
+border: 3px dashed darkgoldenrod;
+width: 1280px;
+color:white;
+}
+
+h3
+{
+color: red;
+text-decoration: underline;
+text-align: center;
+font-size: 24px;
+}
+
+h4
+{
+text-align: center;
+font-size: 15px;
+color: white;
+text-decoration: underline;
+}
+
+p 
+{
+text-align: center;
+font-size: 18px;
+color: white;
+}
+
+table
+{
+	border: 1px solid;
+	padding: 10px;
+	border-collapse: collapse;
+	margin: auto;
+}
+
+th {
+	color: white;
+	padding: 10px;
+	border: 1px solid;
+	background-color: orange;
+	font-size: 15px;
+	text-align: center;
+}
+
+td {
+border: 1px solid;
+color: white;
+padding: 10px;
+font-size: 20px;
+background-color: orangered;
+}
+td:hover
+{
+color: white;
+background-color: darkgreen;
+}
+th:hover
+{
+background-color: darkgreen;
+}
+
+ul
+{
+list-style-type: none;
+font-size: 22px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: maroon;
+position: sticky;
+top: 0;
+}
+li
+{
+float: left;
+}
+li a 
+{
+display: block;
+width: 160px;
+color: white;
+text-align: center;
+padding: 25px 16px;
+text-decoration: none;
+}
+
+li a:hover 
+{
+background-color: brown;
+}
+.active 
+{
+background-color: red;
+}
+
+footer 
+{
+background-color: darkred;
+color: white;
+padding: 30px;
+text-align: center;
+}
+
+html
+{
+scroll-behavior: smooth;
+}
